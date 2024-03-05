@@ -1,0 +1,161 @@
+//chapter 10
+// Q1
+var city = "Karachi";
+if (city === "Karachi") {
+    document.write("The City OF Lights");
+}
+
+// Q2
+if (x === y) {
+    document.write("<div id='zBox'>Please enter the value of z: <input type='text' id='zInput'></div>");
+    let z = document.getElementById('zInput').value;
+}
+
+// Q3
+var zipCode = "10010";
+if (zipCode === "10010") {
+    document.write("Karachi");
+} else {
+    document.write("Please write correct city");
+}
+
+// Q4
+var x = 1;
+if (x === 1) {
+    x = 2;
+}
+
+// Chapter 11
+// Q1
+if (a !== b) {
+    document.write("Variables are not equal");
+}
+
+// Q2
+if (variable1 >= variable2) {
+    document.write("Variable1 is greater than or equal to Variable2");
+}
+
+// Q3
+if (variable !== 10) {
+    variable = 10;
+}
+
+// Q4
+if (number !== differentNumber) {
+    alert("Congratulations!");
+}
+
+// Q5
+var enteredName = prompt("Please enter your first name:");
+if (enteredName !== "John") {
+    alert("No match");
+}
+
+// Chapter 12
+// Q1
+if (variable1 >= variable2) {
+    document.write("Variable1 is greater than or equal to Variable2");
+} else {
+    document.write("Variable1 is less than Variable2");
+}
+
+// Q2
+var marks = parseInt(prompt("Enter your marks:"));
+var percentage = (marks / totalMarks) * 100;
+
+if (percentage >= 90) {
+    document.write("Grade: A");
+} else if (percentage >= 80) {
+    document.write("Grade: B");
+} else if (percentage >= 70) {
+    document.write("Grade: C");
+} else {
+    document.write("Grade: Fail");
+}
+
+// Q3
+if (a !== 10) {
+    document.write("The correct value of a is " + a);
+}
+
+// Q4
+var userCity = prompt("Enter your city:");
+if (userCity === "Karachi") {
+    document.write("Acknowledging it is Karachi");
+} else if (userCity === "Lahore") {
+    document.write("Acknowledging it is Lahore");
+} else {
+    document.write("Different city");
+}
+
+// Chapter 13
+// Q1
+if (a === b && c === d) {
+    document.write("Both conditions are true for Q1");
+}
+
+// Q2
+if (a === b || c !== d) {
+    document.write("Either or both conditions are true for Q2");
+}
+
+// Q3
+var name = "Hamza"; 
+var age = 30; 
+
+if ((name === "Hamza" || name === "Arsalan") && age < 60) {
+    document.write("Name is either 'Hamza' or 'Arsalan' and age is less than 60 for Q3");
+}
+
+
+// Q4
+if (variable1 === variable2) {
+    if (variable1 <= variable2) {
+        document.write("Alert message");
+    }
+}
+
+// Q5
+
+var firstName = "Abdul";
+var lastName = "Baseer";
+
+var userFirstName = prompt("Enter your first name:");
+var userLastName = prompt("Enter your last name:");
+
+if (userFirstName === firstName && userLastName === lastName) {
+    document.write("Names match");
+}
+
+// Chapter 14
+// Q1
+var password = ""; 
+if (password !== "") {
+    if (password.length <= 5) {
+        document.write("Password must be greater than 5");
+    } else {
+        document.write("OK");
+    }
+}
+
+// Q2
+if (a === 1) {
+    if (c === "Max") {
+        document.write("OK");
+    }
+}
+
+// Q3
+if (a === 1 && c === "Max") {
+    document.write("OK");
+}
+
+// Q4
+var variable1 = 10;
+var variable2 = 10;
+
+if (variable1 === variable2 && variable1 <= variable2) {
+    document.write("Alert message");
+}
+
